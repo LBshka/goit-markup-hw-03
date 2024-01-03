@@ -21,6 +21,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 button { 
   cursor: pointer;
 }
@@ -56,11 +60,11 @@ link {
 
 /* ---------------------HEADER------------------- */
 .header {
+  border-bottom: 1px solid #e7e9fc
 
 }
 
 .header-container {
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 display: flex;
 gap: 332px;
@@ -88,10 +92,12 @@ align-items: center;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-white {
   color: #2e2f42;
+  
 }
 
 .header-list {
@@ -129,11 +135,8 @@ align-items: center;
 
 .address-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
-  
-
 }
 
 .address-item {
@@ -164,7 +167,7 @@ align-items: center;
 .hero-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -196,6 +199,7 @@ align-items: center;
   margin: 0 auto;
   margin-top: 48px;
   padding: 16px 32px;
+  min-width: 169px;
 }
 
 .hero-service-btn:hover,
@@ -211,20 +215,19 @@ align-items: center;
 .strategy-container {
 background-color: #fff;
 width: 100%;
+padding: 120px 0;
 }
 
 .strategy-title {
 }
 
 .strategy-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
 
 .strategy-item {
-  width: calc((100% - 24 * 3) / 4);
+  width: calc((100% - 72px) / 4);
   
 }
 
@@ -256,6 +259,7 @@ width: 100%;
 
 .container-people {
   background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
   
 }
 
@@ -268,22 +272,23 @@ width: 100%;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .people-list {
   display: flex;
-  padding-bottom: 120px;
   gap: 24px;
-  display: inline-flex;
-flex-direction: row;
 }
 
 .people-item {
   background-color: #ffffff;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  
+}
+
+.people-item-profession {
+  padding: 32px 0
 }
 
 .people-photo {
@@ -298,9 +303,7 @@ flex-direction: row;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  margin-bottom: 8px;
-
+  margin-bottom: 8px
 }
 
 .people-item-text {
@@ -311,7 +314,6 @@ flex-direction: row;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 /* ----------------------------------------------- */
 
@@ -322,6 +324,8 @@ flex-direction: row;
 
 .container-portfolio {
   background: #FFF;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -333,25 +337,22 @@ flex-direction: row;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
+
 }
 
 .portfolio-item {
 
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+border: 1px solid #e7e9fc;
 background: var(--WHITE, #FFF);
 width: 360px;
-
-
+border-top: none;
 }
 
 .portfolio-photo {
@@ -364,10 +365,13 @@ width: 360px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 8px2
+}
+
+.portfolio-item-subtext {
+
+  padding: 32px 16px
+
 }
 
 .portfolio-item-text {
@@ -377,9 +381,7 @@ width: 360px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 32px;
+
 }
 /* ----------------------------------------------------------- */
 
@@ -391,11 +393,13 @@ width: 360px;
 
 .footer-container {
   background: #2e2f42;
+  padding: 100px 0
   
 }
 
-.footer-logo-padding {
-padding-top: 101.5px;
+.footer-link {
+  display: inline-block;
+  margin-bottom: 8px;
 }
 
 .footer-menu-link {
@@ -420,10 +424,8 @@ padding-top: 101.5px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 17.5px;
   width: 100%;
   max-width: 264px;
-  padding-bottom: 100px;
 
 }
 
