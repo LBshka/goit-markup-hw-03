@@ -38,7 +38,7 @@ address {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 link {
@@ -60,12 +60,13 @@ link {
 
 /* ---------------------HEADER------------------- */
 .header {
-  border-bottom: 1px solid #e7e9fc
+
 
 }
 
 .header-container {
-background: var(--WHITE, #FFF);
+border-bottom: 1px solid #e7e9fc;
+background-color: var(--WHITE, #FFF);
 display: flex;
 gap: 332px;
 align-items: center;
