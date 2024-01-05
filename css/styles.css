@@ -319,12 +319,12 @@ width: 100%;
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: #FFF;
+  border: 1px solid #e7e9fc;
 
 }
 
 .container-portfolio {
-  background: #FFF;
-  border: 1px solid #e7e9fc;
 
 }
 
@@ -350,6 +350,7 @@ width: 100%;
 background: var(--WHITE, #FFF);
 width: 360px;
 border-top: none;
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-photo {
