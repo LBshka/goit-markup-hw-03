@@ -60,12 +60,11 @@ link {
 
 /* ---------------------HEADER------------------- */
 .header {
-
-
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
-border-bottom: 1px solid #e7e9fc;
+
 background-color: var(--WHITE, #FFF);
 display: flex;
 gap: 332px;
@@ -75,6 +74,7 @@ align-items: center;
 .header-logo-padding {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px
 }
 
 .header-navigation {
@@ -93,7 +93,7 @@ align-items: center;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+
 }
 
 .header-logo-white {
@@ -162,13 +162,14 @@ align-items: center;
 
 /* ---------------------------HERO----------------------- */
 .hero {
+
   
 }
 
 .hero-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
+
 }
 
 .hero-title {
@@ -211,12 +212,13 @@ align-items: center;
 /* --------------------------------------------------------- */
 /* ------------------Strategy----------------- */
 .strategy {
+  padding: 120px 0;
 }
 
 .strategy-container {
 background-color: #fff;
 width: 100%;
-padding: 120px 0;
+
 }
 
 .strategy-title {
@@ -255,12 +257,13 @@ padding: 120px 0;
 
 /* --------------------PEOPLE--------------------- */
 .people {
+  padding: 120px 0;
 
 }
 
 .container-people {
   background: var(--CLOUD, #f4f4fd);
-  padding: 120px 0;
+  
   
 }
 
@@ -320,13 +323,14 @@ padding: 120px 0;
 
 /* ---------------- PORTFOLIO ---------------------*/
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 
 }
 
 .container-portfolio {
   background: #FFF;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .portfolio-title {
@@ -390,11 +394,13 @@ border-top: none;
 
 .footer {
   
+  
 }
 
 .footer-container {
   background: #2e2f42;
-  padding: 100px 0
+  padding: 100px 0;
+  
   
 }
 
