@@ -79,6 +79,7 @@ link {
 }
 
 .header-logo-padding {
+  margin-right: 76px;
 }
 
 .header-navigation {
@@ -97,7 +98,6 @@ link {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
-  margin-right: 76px;
 }
 
 .header-logo-white {
@@ -121,7 +121,8 @@ link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
-  padding: 24 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:focus,
