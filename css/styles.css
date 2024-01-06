@@ -68,13 +68,13 @@ link {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-container {
   background-color: var(--WHITE, #fff);
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-navigation {
