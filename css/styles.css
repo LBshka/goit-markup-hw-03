@@ -74,7 +74,6 @@ link {
   background-color: var(--WHITE, #fff);
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-navigation {
@@ -116,6 +115,7 @@ link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
+  padding: 24px 0;
 }
 
 .header-menu-link:focus,
