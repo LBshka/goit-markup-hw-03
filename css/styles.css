@@ -68,6 +68,7 @@ link {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
+  padding: 24px 15px;
 }
 
 .header-container {
@@ -115,7 +116,6 @@ link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
-  padding: 24px 0;
 }
 
 .header-menu-link:focus,
